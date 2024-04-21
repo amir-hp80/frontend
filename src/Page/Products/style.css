@@ -1,0 +1,149 @@
+.card-wrapper2{
+    width: 300px;
+    background: #fff;
+    margin: 1rem auto;
+    overflow: hidden !important;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+}
+.image-card img{
+    padding: 0.5rem 0;
+    width: 100%;
+    object-fit: scale-down;
+}
+.image-card {
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+    overflow: hidden !important;
+    
+}
+.card-name{
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #dddddd;
+    justify-content: space-between !important;
+    /* height: 100%; */
+    
+}
+.card-price{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    float: left;
+
+}
+.card-price span{
+    font-family: 'cinema' !important;
+    font-size: 20px;
+}
+.detail-wrapper{
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    gap: 1rem;
+    
+}
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end !important;
+    justify-content: space-between;
+    bottom: 0 !important;
+    width: 100% !important;
+}
+.product-name h5{
+    float: right !important;
+    color: #000;
+}
+.product-point{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    float: left !important;
+    width: 100% !important;
+}
+.btn-sort-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 2rem;
+}
+.sort-tab{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 .5rem ;
+    background: #ccdff3;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.sort-tab span{
+    font-family: 'cinema'!important;
+    
+}
+.filter-button{
+    /* width: 15%; */
+}
+.filter-button button{
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.7rem;
+    border: 1px solid #dddddd;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+
+
+.filter-tab-wrapper{
+    
+    height: fit-content;
+    /* position: relative; */
+    background: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+.filter-tab-wrapper2{
+    position: absolute;
+}
+.filter-tab{
+    width: 250px;
+}
+
+.filter-list{
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #dddddd;
+}
+.collapsible{
+    
+}
+.collapse-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.input-range input{
+    font-family: 'cinema' !important;
+    font-size: 20px;
+}

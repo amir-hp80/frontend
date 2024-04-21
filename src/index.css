@@ -1,0 +1,453 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  direction: rtl !important;
+  font-family: 'Vazir FD' , 'yekan'!important;
+  /* overflow-x: hidden !important; */
+}
+.loader{
+   display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%) !important;
+  -webkit-transform: translate(-50%,-50%) !important;
+  -moz-transform: translate(-50%,-50%) !important;
+  -ms-transform: translate(-50%,-50%) !important;
+  -o-transform: translate(-50%,-50%) !important;
+}
+
+@font-face {
+  font-family: 'vazir';
+  src: url('../public/font/vazir/static/Vazirmatn-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'cinema';
+    src: url('../../../../public/font/Cinema/Cinema\ Font.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'dinar';
+    src: url('../../../../public/font/Dinar/Mj_Dinar Two Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'sepahbod';
+    src: url('../../../../public/font/Sepahbod/Sepahbod.otf') format('truetype');
+}
+@font-face {
+    font-family: 'shabnam';
+    src: url('../../../../public/font/shabnam/New folder (2)/Shabnam-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('../public/font/B_NAZANIN/B-NAZANIN.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'vazir';
+    src: url('../../../../public/font/vazir/static/Vazirmatn-Light.ttf') format('truetype');
+}
+@import url('https://v1.fontapi.ir/css/VazirFD');
+body{
+  background-color: #EFECEC !important;
+}
+mark{
+  background: none !important;
+}
+
+@media only screen and (max-width : 1070px) {
+    .cart-btn, .remove-btn button{
+      font-size: 15px;
+    }
+}
+@media only screen and (max-width : 1024px) {
+
+    .free-post-wrapper{
+      flex-direction: column;
+      gap: 0;
+    }
+}
+
+@media only screen and (max-width : 986px) {
+     .percent{
+      font-size: 13px !important;
+      
+    }
+    .discount{
+      font-size: 20px !important;
+    }
+    .price{
+      font-size: 18px !important;
+      font-family: 'Vazir FD' !important;
+    }
+    .right-wrapper{
+      flex-wrap: wrap-reverse;
+      height: fit-content;
+      align-items: center;
+    }
+    .product-image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .next-btn-cart{
+      flex-wrap: wrap-reverse;
+    }
+    .remove-btn{
+      width: 100%;
+    }
+    .right-card-wrapper h4{
+      font-size: 14px;
+    }
+    .right-card-wrapper div span{
+      font-size: 14px !important;
+    }
+    .bottom-card :nth-child(1) span{
+      font-size: 15px;
+    }
+    .product-price2 span{
+      font-size: 18px;
+    }
+}
+@media only screen and (max-width : 868px) {
+    .main-description{
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .right-wrapper{
+      width: 100%;
+    }
+    .left-wrapper{
+      width: 100%;
+    }
+    .prev-btn-cart button div{
+      justify-content: center;
+      gap: 2rem;
+    }
+    .bottom-btn-wrapper{
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 100%;
+      background: #fff;
+      padding: 0 1rem;
+      z-index: 3;
+      box-shadow: 3px 3px 10px 3px #dddddd;
+    }
+    .prev-btn-cart {
+    padding: .5rem 0 0.5rem 
+    }
+    .price-wrapper{
+      margin: 0;
+    }
+    .product-detail2 .discount{
+      font-size: 17px !important;
+    }
+    .next-btn-cart{
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+    }
+    .remove-btn,.go-to-cart{
+      width: 40%;
+    text-align: center;
+    }
+    .cart-btn, .remove-btn button{
+      font-size: 18px;
+    }
+    .cart-btn > div{
+      justify-content: center;
+    }
+
+    .product-price2{
+      margin: 0 0.4rem;
+    }
+    .handle-btn-wrapper button img{
+      width: 23px !important;
+    }
+    .bottom-card{
+      padding: 1.5rem 1rem;
+    }
+    .cart-wrapper{
+      flex-wrap: wrap;
+    }
+    .show-factor{
+      width: 100%;
+    }
+}
+@media only screen and (max-width : 768px) {
+    .category-card img{
+      width: 40%;
+    }
+    .product-image img{
+      width: 250px;
+    }
+    .product-title h3{
+      font-size: 16px;
+    }
+    .note-title span{
+      font-size: 14px;
+    }
+    .note-content p{
+      font-size: 14px;
+    }
+    .note-content img{
+      width: 20px;
+    }
+    .slider2-title{
+      font-size: 14px;
+      width: 20%;
+    }
+    .image-card2 img{
+      width: 150px;
+    }
+    .prev-btn-cart > button > div > span{
+      font-size: 16px !important;
+    }
+
+    .logo-wrapper2 span{
+      font-size: 26px;
+    }
+    .form-name :nth-child(2){
+      font-size: 18px !important;
+    }
+    .form-wrapper button{
+      padding: 0.2rem 0.3rem;
+    }
+    .form-image{
+      display: none;
+    }
+    .login-page-wrapper{
+      justify-content: center;
+      top: 45%;
+    }
+    .form-detail{
+      /* gap: 0.5rem; */
+    }
+    .bottom-card{
+      padding: 1rem;
+    }
+    .left-card-wrapper img {
+    width: 135px;
+    }
+    .sort-tab{
+      /* width: 80%; */
+    }
+  }
+
+
+@media only screen and (max-width : 670px) {
+    .category-card img{
+      /* width: 40% !important; */
+    }
+    .sort-tab{
+      width: 80%;
+    }
+    .tab-wrapper1{
+      width: 70%;
+    }
+    .tab-wrapper2{
+      width: 90%;
+    }
+    .filter-tab{
+      width: 200px;
+    }
+    .card-wrapper2{
+      width: 250px;
+    }
+    .main-features span ,.product-title span{
+      font-size: 14px !important;
+    }
+    .top-btn-wrapper span{
+      font-size: 14px;
+    }
+    .top-btn-wrapper > div :first-child{
+      font-size: 16px !important;
+    }
+    .free-post-wrapper span{
+      font-size: 14px;
+    }
+    .note-title{
+      width: 20%;
+    }
+    .slider2-title{
+      font-size: 13px;
+      width: 20%;
+    }
+    .form-detail{
+      width: 55%;
+    }
+    .handle-btn-wrapper{
+      /* display: none; */
+    }
+    .sort-tab{
+      /* width: 76%; */
+    }
+    .service-icon img{
+      width: 45px;
+    }
+    .service-icon span{
+      font-size: 14px;
+    }
+    .footer-link span , .footer-link li a{
+      font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 568px) {
+    .nav{
+      display: none !important;
+    }
+    .sort-tab{
+      width: 70%;
+    }
+    .tab-wrapper1{
+      width: 50%;
+    }
+    .tab-1{
+      width: 60%;
+    }
+    .card-wrapper2{
+      width: 200px;
+    }
+    .note-title{
+      width: 30%;
+    }
+    .slider2-title{
+      font-size: 13px;
+      width: 30%;
+    }
+    .product-title h3{
+      font-size: 15px;
+    }
+    .next-btn-cart{
+      width: 100%;
+      /* flex-direction: column; */
+      /* align-items: center; */
+    }
+    .remove-btn,.go-to-cart{
+      width: 100%;
+    }
+    .form-detail{
+      width: 70%;
+    }
+    .left-card-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0;
+    }
+    .product-price2{
+      flex-direction: column-reverse;
+      align-items: flex-end;
+      margin-top: 1rem;
+      gap: 0;
+    }
+
+}
+@media only screen and (max-width : 500px){
+  .filter-button button{
+    padding: 0.4rem 1rem;
+  }
+}
+@media only screen and (max-width : 470px) {
+    .category-card span{
+      font-size: 14px;
+    }
+    .discount-slider .swiper-slide{
+      width: 150px !important;
+      height: 220px !important;
+    }
+    .discount-slider .swiper-slide img{
+      width: 80%;
+    }
+    .percent{
+      font-size: 13px !important;
+      font-family: 'Vazir FD' !important;
+    }
+    .discount{
+      font-size: 16px !important;
+    }
+    .price{
+      font-size: 14px !important;
+    }
+    .btn-sort-wrapper{
+      margin: 1rem 0.5rem;
+    }
+    .card-wrapper2{
+      width: 230px;
+    }
+    .note-title {
+      width: 50%;
+      padding: 0.2rem;
+    }
+    .slider2-title{
+      font-size: 12px;
+    }
+    .next-btn-cart{
+      flex-direction: column-reverse;
+    }
+    .cart-btn > div{
+      justify-content: center;
+    }
+    .input-container input{
+      font-size: 14px;
+    }
+    .form-name :nth-child(2){
+      font-size: 16px !important;
+    }
+    .form-name > div > span{
+      font-size: 16px;
+    }
+    .form-name mark{
+      font-size: 18px;
+    }
+    .form-detail :nth-child(4) span{
+      font-size: 14px;
+    }
+    .logo-wrapper2 span{
+      font-size: 22px;
+    }
+    .form-detail{
+      width: 85%;
+    }
+
+    .right-card-wrapper h4{
+      font-size: 12px;
+    }
+    .right-card-wrapper div span{
+      font-size: 12px !important;
+    }
+    .top-footer h4,.top-footer h4 mark{
+      font-size: 28px;
+    }
+    .phone-wrapper span{
+      font-size: 13px !important;
+    }
+    .arrow-up{
+      padding: 0.2rem;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+}
+@media only screen and (max-width : 400px){
+    .main-footer{
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .bottom-footer{
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+
